@@ -7,15 +7,15 @@
 const categoriesList = [
   {
   	name: 'Grammys',
-  	photo: "require('./photos/uno.png')",
+  	photo: "require('34.219.10.55/static/uno.png')",
   },
   {
   	name: 'Festival Movie',
-  	photo: "require('./photos/dos.png')",
+  	photo: "require('34.219.10.55/static/dos.png')",
   },
   {
   	name: 'The Oscars',
-  	photo: "require('./photos/tres.png')",
+  	photo: "require('34.219.10.55/static/tres.png')",
   },
 ];
 
