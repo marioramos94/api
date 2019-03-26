@@ -19,21 +19,21 @@ const listing15Photo = require('./photos/listing15.png');
 const listing16Photo = require('./photos/listing16.png');
 */
 const listing1Photo = "34.219.10.55/static/listing1.png";
-const listing2Photo = "34.219.10.55/static/listing1.png";
-const listing3Photo = "34.219.10.55/static/listing1.png";
-const listing4Photo = "34.219.10.55/static/listing1.png";
-const listing5Photo = "34.219.10.55/static/listing1.png";
-const listing6Photo ="34.219.10.55/static/listing1.png";
-const listing7Photo = "34.219.10.55/static/listing1.png";
-const listing8Photo = "34.219.10.55/static/listing1.png";
-const listing9Photo = "34.219.10.55/static/listing1.png";
-const listing10Photo = "34.219.10.55/static/listing1.png";
-const listing11Photo = "34.219.10.55/static/listing1.png";
-const listing12Photo = "34.219.10.55/static/listing1.png";
-const listing13Photo = "34.219.10.55/static/listing1.png";
-const listing14Photo = "34.219.10.55/static/listing1.png";
-const listing15Photo ="34.219.10.55/static/listing1.png";
-const listing16Photo ="34.219.10.55/static/listing1.png";
+const listing2Photo = "34.219.10.55/static/listing2.png";
+const listing3Photo = "34.219.10.55/static/listing3.png";
+const listing4Photo = "34.219.10.55/static/listing4.png";
+const listing5Photo = "34.219.10.55/static/listing5.png";
+const listing6Photo ="34.219.10.55/static/listing6.png";
+const listing7Photo = "34.219.10.55/static/listing7.png";
+const listing8Photo = "34.219.10.55/static/listing8.png";
+const listing9Photo = "34.219.10.55/static/listing9.png";
+const listing10Photo = "34.219.10.55/static/listing10.png";
+const listing11Photo = "34.219.10.55/static/listing11.png";
+const listing12Photo = "34.219.10.55/static/listing12.png";
+const listing13Photo = "34.219.10.55/static/listing13.png";
+const listing14Photo = "34.219.10.55/static/listing14.png";
+const listing15Photo ="34.219.10.55/static/listing15.png";
+const listing16Photo ="34.219.10.55/static/listing16.png";
 
 
 const listings = [
