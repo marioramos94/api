@@ -12,6 +12,8 @@ const categoriesList = require('./data/categories')
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use('/static', express.static(__dirname + '/data/photos'));
+
 
 app.get('/listings', (req, res) => {
 
