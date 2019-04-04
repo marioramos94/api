@@ -1,0 +1,22 @@
+[{
+	"id": "1",
+	"curso": "FL",
+	"nombre": "Filosofia"
+},{
+	"id": "2",
+	"curso": "PB",
+	"nombre": "Programacion Basica"
+},{
+	"id": "3",
+	"curso": "PAV",
+	"nombre": "Programacion avanzada"
+},{
+	"id": "4",
+	"curso": "EDA",
+	"nombre": "Estadistica aplicada"
+},{
+	"id": "5",
+	"curso": "EB",
+	"nombre": "Estadistica basica"
+}
+]

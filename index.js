@@ -1,33 +1,37 @@
-const express = require('express')
-const app = express()
-const port = 3000
-const bodyParser = require('body-parser')
 
-const listings = require('./data/listings')
-const categoriesList = require('./data/categories')
+const axios= require ('axios')
 
 
-
-//const MongoClient = require('mongodb').MongoClient
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use('/static', express.static(__dirname + '/data/photos'));
+const usuarios = require('./data/usuarios')
 
 
-app.get('/listings', (req, res) => {
+const arrayuploader = (arr)=>{
+  let id =1  
+  arr.map((elm)=>{
+       
+       uploader (elm,id)    
+       id = id +1
+       
 
-   res.send(listings)
-  
-  });
+    })
+}
+const uploader=(obj,id)=>{
+    let url="localhost:9200/escuela/usuario/"
+    url =`${url}${id}`
+    axios({
+      method: 'put',
+      url: url,
+      data: obj
+    })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+     
+}
 
-app.get('/categorieslist', (req, res) => {
-  
-  res.send(categoriesList)
-    
-  
-  });
 
+arrayuploader(usuarios)
 
-
-app.listen(port, () => console.log(`Server listening on port ${port}!`))
